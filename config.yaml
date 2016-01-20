@@ -1,0 +1,8 @@
+baseurl: "magic-lang.com"
+languageCode: "en-us"
+title: "Magic lang"
+metaDataFormat: "yaml"
+theme: "hugo-vidhance-theme"
+blackfriday:
+    extensions:
+        - hardLineBreak
