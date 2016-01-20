@@ -8,7 +8,7 @@ copyright: 2009-2014 Amos Wenger
 license: CC BY-SA 3.0
 ---
 
-# The OOC Language
+# The magic language
 
 The language has grown over the years, but it's still relatively tidy.
 Here's a list of sections of the language documentation:
