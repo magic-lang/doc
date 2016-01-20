@@ -9,6 +9,9 @@ body > main {
 body > footer > p {
 	margin-top: 0em;
 }
+body > nav li a {
+    white-space: nowrap;
+}
 @media screen and (min-width: 52em) {
 	body > footer {
 		height: 2em;
@@ -18,5 +21,9 @@ body > footer > p {
     }
     body > footer > p {
         margin-top: 0.5em;
+    }
+    body > nav > ul ul ul {
+        left: 100%;
+        margin-top: -1.95em;
     }
 }
