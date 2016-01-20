@@ -10,14 +10,27 @@ copyright: 2009-2014 Amos Wenger
 license: CC BY-SA 3.0
 ---
 
-# ooc support in text editors
+# magic support in text editors
+The editor we recommend is the now-open source *Visual Studio Code* from Microsoft. 
 
-ooc has a varying level of support among different text editors.
+Extensions for syntax highlighting is available here:
 
-Read on to find if your favourite flavor is supported. If you add
-support for a new editor, please open an issue on the [ooc-lang.org repo][site-repo].
+[https://github.com/magic-lang/vs.language.ooc]
 
-# vim
+# ooc support
+Besides magic, ooc has a varying level of support among different text editors. The syntax is mostly similar.
+
+## Atom
+
+The [Atom editor][atom] can use converted TextMate bundles.
+
+You can easily convert [ooc.tmbundle][ooc.tmbundle] for your own usage, like so:
+
+    apm init --package ~/.atom/packages/language-ooc --convert https://github.com/nilium/ooc.tmbundle
+
+You might need to restart Atom to see the changes.
+
+## vim
 
 ooc support for vim is provided by the [ooc.vim][ooc.vim] plug-in. It provides:
 
@@ -28,7 +41,7 @@ ooc support for vim is provided by the [ooc.vim][ooc.vim] plug-in. It provides:
 
 You can read more at the [project repository][ooc.vim]'s page.
 
-# emacs
+## emacs
 
 ooc support for emacs is provided by [ooc-mode][ooc-mode]. It provides:
 
@@ -36,32 +49,22 @@ ooc support for emacs is provided by [ooc-mode][ooc-mode]. It provides:
   * Indentation support
   * On the fly syntax check with flymake-ooc
 
-# TextMate
+## TextMate
 
 ooc support for TextMate is provided by [ooc.tmbundle][ooc.tmbundle].
 
-# Atom
-
-The [Atom editor][atom] can use converted TextMate bundles.
-
-You can easily convert [ooc.tmbundle][ooc.tmbundle] for your own usage, like so:
-
-    apm init --package ~/.atom/packages/language-ooc --convert https://github.com/nilium/ooc.tmbundle
-
-You might need to restart Atom to see the changes.
-
-# Brackets
+## Brackets
 
 The [Brackets editor][brackets] now has an extension for ooc syntax highlighting.
 It can be installed from the Extensions Manager by searching for `ooc syntax`.
 The source is available [on GitHub][brackets-ooc]
 
-# gtksourceview
+## gtksourceview
 
 gtksourceview-based tools such as gedit, meld, etc. have
 ooc support out of the box.
 
-# pygments
+## pygments
 
 [pygments][pygments] has relatively good ooc support built-in. It is a python
 solution for syntax highlighting used on GitHub and easy to integrate with
