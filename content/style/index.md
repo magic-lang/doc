@@ -9,7 +9,7 @@ license: CC BY-SA 3.0
 ---
 
 # magic/ooc style guide
-**Last updated 2015-01-20 with rock 1.0.13 and magic 0.1.21**
+**Last updated 2015-01-26 with rock 1.0.14 and magic 0.1.21**
 
 Applies to all `magic`/`ooc` code.
 
@@ -177,7 +177,7 @@ else
 	myInt = sandwichList count
 ```
 
-Use explicit conversion only where needed. For example, `myInt: Int = 2.3f as Int` is unnecessary. Conversion between numeric types and/or `Bool` generally works well.
+Use explicit conversion only where needed. For example, `myInt: Int = 2.3f as Int` is unnecessary. Conversion between numeric types and/or `Bool` generally works well. Writing `name: Type = value`, or sometimes `name := value as Type`, is preferred over `name = value : Type`.
 
 Never use `VarArgs`.
 
